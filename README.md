@@ -42,4 +42,13 @@
 5. 更新sencha Cmd 执行命令 sencha upgrade --check
 6. sencha help 查看sencha 基本命令
 
+> encha cmd 6安装过程不需要UAC控制了对于widnows来说，对于mac来说是启动权限，之前的版本，我们比较麻烦的事情是需要下载正确的ruby版本才可以使用cmd，现在6.0版本之后，就不需要单独安装ruby了，新版取消了对ruby的依赖。新版cmd增加了对jre的默认安装，选择下载包的时候，可以直接下载带有jre的安装包，这样就不需要再单独安装jre啦，这对不熟悉java安装环境的用户来说，又是一大福利。对于编译的compass扩展，新版也做了改进，如果是不是再使用旧版本，则，可以不再安装compass extension了。
+
+## 应用
+
+1. 生成应用程序
+    sencha generate app -ext MyApp E:\senchaworkspace\MyApp
+2. 
+
+
 [1]:http://images0.cnblogs.com/blog2015/249616/201507/030102266926108.png
