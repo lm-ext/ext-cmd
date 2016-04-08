@@ -28,6 +28,8 @@ Sencha Cmd 支持Sencha Ext JS 的4.1.1a以及以上版本还有Sencha Touch的2
 
 Sencha Touch2.0和Sencha Ext JS 4.0 需要SDK2.0版本的工具，在以后的版本中是不会被支持的哦。
 
+
+
     Sencha Cmd下载地址：https://www.sencha.com/products/extjs/cmd-download/
     Sencha Cmd 6官网地址：http://docs.sencha.com/cmd/6.x/
     Sencha Cmd 6相关细节的地址：http://docs.sencha.com/cmd/6.x/cmd_upgrade_guide.html
