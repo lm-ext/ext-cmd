@@ -16,18 +16,15 @@
 12. 三方控件： Sencha cmd 包含了Compass sass 和ant 。
 13. 代码生成的钩子：可以指定到一个页面或者在工作控件分享所有页面，例如检查daunting的惯例或者产生新的模型。
 
-兼容性
+## 兼容性
 
-~~~~~~~~
+> Sencha Cmd 支持Sencha Ext JS 的4.1.1a以及以上版本还有Sencha Touch的2.1版本以及以上，许多的新功能需要在框架的支持下工作，都是可以使用的版本。
 
-Sencha Cmd 支持Sencha Ext JS 的4.1.1a以及以上版本还有Sencha Touch的2.1版本以及以上，许多的新功能需要在框架的支持下工作，都是可以使用的版本。
+> 对旧版本来说，有些低级命令式可以使用的。
 
-对旧版本来说，有些低级命令式可以使用的。
+> 如果你在使用旧版本的Ext JS 你可以使用Sencha Cmd的build命令来构造你的JSB文件。换句话说，Sencha Cmd 可以将JSB文件生成压缩的构造包来替换之前版本，这操作不会更新你的那些有之前SDK生成的JSB文件。
 
-如果你在使用旧版本的Ext JS 你可以使用Sencha Cmd的build命令来构造你的JSB文件。换句话说，Sencha Cmd 可以将JSB文件生成压缩的构造包来替换之前版本，这操作不会更新你的那些有之前SDK生成的JSB文件。
-
-Sencha Touch2.0和Sencha Ext JS 4.0 需要SDK2.0版本的工具，在以后的版本中是不会被支持的哦。
-
+> Sencha Touch2.0和Sencha Ext JS 4.0 需要SDK2.0版本的工具，在以后的版本中是不会被支持的哦。
 
 
     Sencha Cmd下载地址：https://www.sencha.com/products/extjs/cmd-download/
