@@ -1,5 +1,32 @@
 # Sencha Cmd安装笔记
 
+###sencha Cmd 提供了一系列功能强大的节约时间的功能，结合Sencha Ext JS 和Sencha Touch框架协同工作。Sencha Cmd 提供了如下几个能力：
+
+1. 代码生成工具：代码生成工具生成整个应用程序并且扩展生成mvc的组件框架，如，使用sencha generate app 命令，可以自动帮你生成一个完成的应用程序目录框架。
+2. JS编译:框架意识，Javascript 编译器了解Sencha的语义语法，并且从你源代码构建的时候产生较少的足迹。编译器通过Sencha框架减少加载应用程序的时间来优化高层次的语义。
+3. 网络服务：提供了轻量级的网络服务，如，使用sencha web start 可以启动网络服务。
+4. 本地包装：以一流的移动应用程序访问设备给移动应用程序并且可以方便的分布到移动商店。
+5. 包装管理系统：方便集成的由管理系统(像Ext js 的主题)
+6. 构建脚本. 通过在应用程序中增加“before”和"after"给应用程序增加一些额外的设置点让客户可以定制适合自己需求的脚本。
+7. 转换工具：强大的代码选择器转换你项目中需要最终构建需要的代码，决定页面和局部共享代码的高级别选择集像你需要的那样构造。
+8. 工作空间管理：过不同的应用程序共享框架工作，包河自定义的代码透。
+9. 图像提取：转换CSS3的特性（比如边界半径和线性梯度）
+10. 灵活的配置系统： 在一台机器上允许命令行操作程序或者在工作空间级别或者整个工作空间。
+11. 日记功能：强大的日志功能帮助你理解整个内部的命令行工作，排除故障。
+12. 三方控件： Sencha cmd 包含了Compass sass 和ant 。
+13. 代码生成的钩子：可以指定到一个页面或者在工作控件分享所有页面，例如检查daunting的惯例或者产生新的模型。
+
+兼容性
+
+~~~~~~~~
+
+Sencha Cmd 支持Sencha Ext JS 的4.1.1a以及以上版本还有Sencha Touch的2.1版本以及以上，许多的新功能需要在框架的支持下工作，都是可以使用的版本。
+
+对旧版本来说，有些低级命令式可以使用的。
+
+如果你在使用旧版本的Ext JS 你可以使用Sencha Cmd的build命令来构造你的JSB文件。换句话说，Sencha Cmd 可以将JSB文件生成压缩的构造包来替换之前版本，这操作不会更新你的那些有之前SDK生成的JSB文件。
+
+Sencha Touch2.0和Sencha Ext JS 4.0 需要SDK2.0版本的工具，在以后的版本中是不会被支持的哦。
     Sencha Cmd下载地址：https://www.sencha.com/products/extjs/cmd-download/
     Sencha Cmd 6官网地址：http://docs.sencha.com/cmd/6.x/
     Sencha Cmd 6相关细节的地址：http://docs.sencha.com/cmd/6.x/cmd_upgrade_guide.html
