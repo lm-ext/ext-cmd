@@ -51,7 +51,8 @@
     sencha generate app -ext MyApp E:\senchaworkspace\MyApp  
     需要注意的是，生成的EXTjs 是商业体验版本，
     如果你购买了，那么你需要下载extjs的zip包，并且使用-SDK命令来制定SDK的路径，这样，就不会去默认下载SDK而是按照你本地的文件来生成了。命令如下：   
-    sencha -sdk /这里是你的sdk路径/ generate app MyApp 你的App的路径。如 sencha -sdk c:sencha5.0.0 generate app OASystem d:\oasys
+    sencha -sdk /这里是你的sdk路径/ generate app MyApp 你的App的路径。  
+    如 sencha -sdk c:sencha5.0.0 generate app OASystem d:\oasys
     
 2. 构建应用程序
 
@@ -60,5 +61,31 @@
 3. 启动服务器
 
     sencha web start命令来开启你的服务
+    
+4. 增加一个新的models
+
+    sencha generate model User id:int,name:string  
+    包含id 和 name 属性的User
+
+5. 增加一个新的Controllers
+
+    sencha generate controller Central
+
+6. 增加一个view
+
+    sencha generate view SomeView
+
+7. classpath类路径
+
+    sencha app build 命令制定去哪里找到你的应用程序的代码全部依赖于app.classpath配置，它是在”.sencha/app/sencha.cfg“文件夹下的。默认的数值是  
+    app.classpath=${app.dir}/app,${app.dir}/app.js
+
+8. 
+
+
+
+
+
+
 
 [1]:http://images0.cnblogs.com/blog2015/249616/201507/030102266926108.png
