@@ -27,16 +27,20 @@ Sencha Cmd 支持Sencha Ext JS 的4.1.1a以及以上版本还有Sencha Touch的2
 如果你在使用旧版本的Ext JS 你可以使用Sencha Cmd的build命令来构造你的JSB文件。换句话说，Sencha Cmd 可以将JSB文件生成压缩的构造包来替换之前版本，这操作不会更新你的那些有之前SDK生成的JSB文件。
 
 Sencha Touch2.0和Sencha Ext JS 4.0 需要SDK2.0版本的工具，在以后的版本中是不会被支持的哦。
+
     Sencha Cmd下载地址：https://www.sencha.com/products/extjs/cmd-download/
     Sencha Cmd 6官网地址：http://docs.sencha.com/cmd/6.x/
     Sencha Cmd 6相关细节的地址：http://docs.sencha.com/cmd/6.x/cmd_upgrade_guide.html
     
+## 安装sencha CMD
 
 1. jdk安装
 2. 安装ruby
 3. 安装secha cmd
     安装过程中，会提示是否兼容以前版本（如下图），勾选后则兼容6以前的版本，如果安装以前的老版本，则不存在这种问题。
 ![tupian][1]
-
+4. 开命令行 即CMD 切换到安装目录下，输入 sencha命令，查看是否安装成功
+5. 更新sencha Cmd 执行命令 sencha upgrade --check
+6. sencha help 查看sencha 基本命令
 
 [1]:http://images0.cnblogs.com/blog2015/249616/201507/030102266926108.png
