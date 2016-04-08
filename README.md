@@ -56,7 +56,8 @@
     
 2. 构建应用程序
 
-    在你的应用程序文件夹下执行 sencha app build
+    在你的应用程序文件夹下执行 sencha app build  
+    本质上来讲，sencha app build 命令执行了基本的校验并且调用 apache ant          去构造，构造的脚本可以在”build.xml“文件中查看，该文件就在应用程序的根文件夹下。
 
 3. 启动服务器
 
