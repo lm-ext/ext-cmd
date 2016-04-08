@@ -47,7 +47,12 @@
 ## 应用
 
 1. 生成应用程序
+
     sencha generate app -ext MyApp E:\senchaworkspace\MyApp
+    需要注意的是，生成的EXTjs 是商业体验版本，
+    如果你购买了，那么你需要下载extjs的zip包，并且使用-SDK命令来制定SDK的路径，这样，就不会去默认下载SDK而是按照你本地的文件来生成了。命令如下： 
+    sencha -sdk /这里是你的sdk路径/ generate app MyApp 你的App的路径。如 sencha -sdk c:sencha5.0.0 generate app OASystem d:\oasys
+    
 2. 
 
 
